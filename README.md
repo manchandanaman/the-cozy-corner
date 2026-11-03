@@ -25,8 +25,6 @@ Browser LocalStorage
 text
 The Cozy Corner/
 │
-├── index.html
-│
 ├── images/
 │   ├── cappuccino.png
 │   ├── coffee.png
@@ -39,6 +37,8 @@ The Cozy Corner/
 │   └── cafe.js
 │
 └── README.md
+|
+└──index.html
 
 📚 What I Learned
 DOM manipulation
