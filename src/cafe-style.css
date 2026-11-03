@@ -1,0 +1,261 @@
+
+/* Global Styles */
+body {
+    background-color: #fcf8f5;
+}
+
+/* Reset Default Spacing */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: brown;
+}
+
+.navbar a:hover {
+    color: #A47551;
+}
+
+/* Home Section */
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5C4033;
+    text-align: left;
+    padding: 2rem;
+    color: #F7F0E6;
+}
+
+#Home h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#Home a {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#Home img {
+    width: 250px;
+    height: auto;
+}
+
+#Home p {
+    margin-bottom: 2rem;
+}
+
+/* Menu Section */
+#menu-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f1dccd;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.menu-item h3 {
+    color: #5C4033;
+    font-size: 22px;
+}
+
+.menu-item p {
+    color: #5C4033;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    transform: scale(1.03);
+}
+
+.menu-item img {
+    width: 70%;
+    height: 250px;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.menu-item button {
+    background-color: #edd4c0;
+    color: #232221;
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+
+.menu-item button:hover {
+    background-color: #ddcccc;
+    cursor: pointer;
+}
+
+/* Search */
+#search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid #A47551;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Shopping Cart */
+#Cart {
+    background-color: #ebe0d7;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #5C4033;
+}
+
+.cart-item {
+    background-color: #fcf8f5;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 12px 0;
+}
+
+.quantity-controls button {
+    background-color: #5C4033;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.quantity-controls button:hover {
+    background-color: #A47551;
+}
+
+.remove-btn {
+    background-color: #edd4c0;
+    color: #5C4033;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#cart-total {
+    margin-top: 20px;
+    text-align: right;
+    color: #5C4033;
+}
+
+#cart-items p {
+    margin: 8px 0;
+}
+
+/* About Section */
+#About {
+    background-color: #edcaaf;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #3e2a20;
+}
+
+/* Contact Section */
+#Contact {
+    background-color: #ebe0d7;
+    border-radius: 15px;
+    color: #5C4033;
+}
+
+/* Navbar Button */
+.navbar button {
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+
+.navbar button:hover {
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: #131212;
+    color: #F7F0E6;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #menu-card {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .navbar {
+        padding: 1rem;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .navbar nav {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    #Home h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
