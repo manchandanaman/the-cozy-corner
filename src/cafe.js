@@ -5,25 +5,25 @@ const menuItems = [
         name: "Cappuccino",
         price: 4.50,
         category: "Coffee",
-        image: "../images/cappuccino.png"
+        image: "images/cappuccino.png"
     },
     {
         name: "Iced Latte",
         price: 5.00,
         category: "Coffee",
-        image: "../images/icedlattee.png.png"
+        image: "images/icedlattee.png.png"
     },
     {
         name: "Muffin",
         price: 3.00,
         category: "Bakery",
-        image: "../images/muffin.png.png"
+        image: "images/muffin.png.png"
     },
     {
         name: "Croissant",
         price: 3.25,
         category: "Bakery",
-        image: "../images/croissant.png.png"
+        image: "images/croissant.png.png"
     }
 ];
 
