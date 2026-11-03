@@ -5,6 +5,7 @@ A responsive cafe website built using HTML5, CSS3, and JavaScript. Users can exp
 🌐 Live Demo
 
 View Live Website
+https://manchandanaman.github.io/the-cozy-corner/
 
 ✨ Features
 Responsive cafe website design
